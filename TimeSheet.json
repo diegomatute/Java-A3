@@ -1,0 +1,42 @@
+{
+  "worker": {
+    "first": "Rose", 
+    "last": "Diaz", 
+    "id": 101, 
+    "payRate": 20.0
+}, 
+"shifts": [
+  {
+    "date": {
+      "month": 9, 
+      "day": 2, 
+      "year": 2020
+    },
+    "hoursWorked": 5.0
+  }, 
+  {
+    "date": {
+      "month": 9, 
+      "day": 3, 
+      "year": 2020
+    },
+    "hoursWorked": 6.0
+  }, 
+  {
+    "date": {
+      "month": 9, 
+      "day": 4, 
+      "year": 2020
+    },
+    "hoursWorked": 4.0
+  }, 
+  {
+    "date": {
+      "month": 9, 
+      "day": 5, 
+      "year": 2020
+    },
+    "hoursWorked": 8.0
+  }
+ ]
+}

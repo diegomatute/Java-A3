@@ -1,6 +1,116 @@
 <?import javafx.scene.layout.AnchorPane?>
-<AnchorPane>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.collections.*?>
+<?import java.lang.String?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+
+
+
+<AnchorPane
+    xmlns:fx="http://javafx.com/fxml"
+    fx:controller="com.diegomatute.presentation.TimeSheetController"
+    fx:id="anchorpane"
+>
     
-    
+    <children>
+        
+        
+        <VBox  AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+            
+            <MenuBar>
+                <menus>
+                    <Menu text="File">
+                        <items>
+                            <MenuItem fx:id="openMenuItem" text="Open"/>
+                            <SeparatorMenuItem />
+                            <MenuItem fx:id="saveAsMenuItem" text="Save As"/>
+                            <SeparatorMenuItem />
+                            <MenuItem fx:id="saveReportMenuItem" text="Save Report"/>
+                            <SeparatorMenuItem />
+                            <MenuItem fx:id="exitMenuItem" text="Exit"/>
+                            <SeparatorMenuItem />
+                        
+                        </items>
+                    
+                    </Menu>
+                
+                
+                </menus>
+            
+            
+            </MenuBar>
+         
+        
+        
+            <TabPane tabClosingPolicy="UNAVAILABLE">
+                
+                <tabs>
+
+                    <Tab fx:id="workerTab" text="Worker">
+                        <VBox>
+                            <HBox>
+                                <Label text="First name"/>
+                                
+                                
+                                
+                                
+                                
+                                
+                            </HBox>
+                            
+                            
+                            <Label text="Last name"/>
+                            
+                            <Label text="Id"/>
+                            
+                            <Label text="Pay Rate"/>
+                        </VBox>
+                    
+                    </Tab>
+                
+                    <Tab fx:id="shiftTab" text="Shifts"> 
+                        <VBox>
+                            <ListView fx:id="listView">
+                                <items>
+                                    <FXCollections fx:factory="observableArrayList">
+                                        <String fx:value="One"/>
+                                        <String fx:value="Two"/>
+                                        <String fx:value="Three"/>
+                                    </FXCollections>
+                                </items>
+                                
+                                
+                                
+                            </ListView>
+                            
+
+                            
+                        </VBox>
+                
+                    </Tab>
+                
+                
+                
+                
+                
+                
+                
+                
+                </tabs>  
+            </TabPane>
+        
+        
+        
+        </VBox>
+       
+    </children>
     
 </AnchorPane>
