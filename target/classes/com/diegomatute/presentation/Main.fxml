@@ -29,13 +29,17 @@
                 <menus>
                     <Menu text="File">
                         <items>
-                            <MenuItem fx:id="openMenuItem" text="Open"/>
+                            <MenuItem fx:id="openMenuItem" text="Open" 
+                            onAction="#handleOpenMenuItemAction" />
                             <SeparatorMenuItem />
-                            <MenuItem fx:id="saveAsMenuItem" text="Save As"/>
+                            <MenuItem fx:id="saveAsMenuItem" text="Save As"
+                            onAction="#handleSaveAsMenuItemAction" />
                             <SeparatorMenuItem />
-                            <MenuItem fx:id="saveReportMenuItem" text="Save Report"/>
+                            <MenuItem fx:id="saveReportMenuItem" text="Save Report"
+                            onAction="#handleSaveReportMenuItemAction" />
                             <SeparatorMenuItem />
-                            <MenuItem fx:id="exitMenuItem" text="Exit"/>
+                            <MenuItem fx:id="exitMenuItem" text="Exit"
+                            onAction="#handleExitMenuItemAction"/>
                             <SeparatorMenuItem />
                         
                         </items>
