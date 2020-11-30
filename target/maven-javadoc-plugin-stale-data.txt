@@ -1,0 +1,52 @@
+/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/../bin/javadoc
+@options
+@packages
+-classpath
+'/Users/diegomatute/.m2/repository/org/openjfx/javafx-controls/13/javafx-controls-13.jar:/Users/diegomatute/.m2/repository/org/openjfx/javafx-controls/13/javafx-controls-13-mac.jar:/Users/diegomatute/.m2/repository/org/openjfx/javafx-graphics/13/javafx-graphics-13.jar:/Users/diegomatute/.m2/repository/org/openjfx/javafx-graphics/13/javafx-graphics-13-mac.jar:/Users/diegomatute/.m2/repository/org/openjfx/javafx-base/13/javafx-base-13.jar:/Users/diegomatute/.m2/repository/org/openjfx/javafx-base/13/javafx-base-13-mac.jar:/Users/diegomatute/.m2/repository/org/openjfx/javafx-fxml/13/javafx-fxml-13.jar:/Users/diegomatute/.m2/repository/org/openjfx/javafx-fxml/13/javafx-fxml-13-mac.jar:/Users/diegomatute/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'/Users/diegomatute/NetBeansProjects/Assignment4/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2020. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/Users/diegomatute/NetBeansProjects/Assignment4/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Assignment4 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' '/Users/diegomatute/NetBeansProjects/Assignment4/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'Assignment4 1.0-SNAPSHOT API'
+com.diegomatute.business
+com.diegomatute.presentation
+/Users/diegomatute/.m2/repository/org/openjfx/javafx-controls/13/javafx-controls-13.jar = 1605654109000
+/Users/diegomatute/.m2/repository/org/openjfx/javafx-controls/13/javafx-controls-13-mac.jar = 1605654110000
+/Users/diegomatute/.m2/repository/org/openjfx/javafx-graphics/13/javafx-graphics-13.jar = 1605654109000
+/Users/diegomatute/.m2/repository/org/openjfx/javafx-graphics/13/javafx-graphics-13-mac.jar = 1605654110000
+/Users/diegomatute/.m2/repository/org/openjfx/javafx-base/13/javafx-base-13.jar = 1605654109000
+/Users/diegomatute/.m2/repository/org/openjfx/javafx-base/13/javafx-base-13-mac.jar = 1605654109000
+/Users/diegomatute/.m2/repository/org/openjfx/javafx-fxml/13/javafx-fxml-13.jar = 1605654109000
+/Users/diegomatute/.m2/repository/org/openjfx/javafx-fxml/13/javafx-fxml-13-mac.jar = 1605654109000
+/Users/diegomatute/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar = 1605647539000
+/Users/diegomatute/NetBeansProjects/Assignment4/src/main/java = 1606173187000
+/Users/diegomatute/NetBeansProjects/Assignment4/target/site/apidocs/constant-values.html = 1606711566000
+/Users/diegomatute/NetBeansProjects/Assignment4/target/site/apidocs/overview-tree.html = 1606711566000
+/Users/diegomatute/NetBeansProjects/Assignment4/target/site/apidocs/index.html = 1606711566000
+/Users/diegomatute/NetBeansProjects/Assignment4/target/site/apidocs/overview-frame.html = 1606711566000
+/Users/diegomatute/NetBeansProjects/Assignment4/target/site/apidocs/allclasses-noframe.html = 1606711566000
+/Users/diegomatute/NetBeansProjects/Assignment4/target/site/apidocs/index-all.html = 1606711566000
+/Users/diegomatute/NetBeansProjects/Assignment4/target/site/apidocs/deprecated-list.html = 1606711566000
+/Users/diegomatute/NetBeansProjects/Assignment4/target/site/apidocs/script.js = 1606711566000
+/Users/diegomatute/NetBeansProjects/Assignment4/target/site/apidocs/stylesheet.css = 1606709159000
+/Users/diegomatute/NetBeansProjects/Assignment4/target/site/apidocs/overview-summary.html = 1606711566000
+/Users/diegomatute/NetBeansProjects/Assignment4/target/site/apidocs/help-doc.html = 1606711566000
+/Users/diegomatute/NetBeansProjects/Assignment4/target/site/apidocs/allclasses-frame.html = 1606711566000
+/Users/diegomatute/NetBeansProjects/Assignment4/target/site/apidocs/package-list = 1606711566000

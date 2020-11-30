@@ -11,7 +11,9 @@
 <?import java.lang.String?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.control.Label?>
-
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.geometry.Insets?>
 
 
 <AnchorPane
@@ -30,17 +32,17 @@
                     <Menu text="File">
                         <items>
                             <MenuItem fx:id="openMenuItem" text="Open" 
-                            onAction="#handleOpenMenuItemAction" />
+                                      onAction="#handleOpenMenuItemAction" />
                             <SeparatorMenuItem />
                             <MenuItem fx:id="saveAsMenuItem" text="Save As"
-                            onAction="#handleSaveAsMenuItemAction" />
-                            <SeparatorMenuItem />
+                                      onAction="#handleSaveAsMenuItemAction" />
+                            
                             <MenuItem fx:id="saveReportMenuItem" text="Save Report"
-                            onAction="#handleSaveReportMenuItemAction" />
+                                      onAction="#handleSaveReportMenuItemAction" />
                             <SeparatorMenuItem />
                             <MenuItem fx:id="exitMenuItem" text="Exit"
-                            onAction="#handleExitMenuItemAction"/>
-                            <SeparatorMenuItem />
+                                      onAction="#handleExitMenuItemAction"/>
+                           
                         
                         </items>
                     
@@ -53,66 +55,73 @@
             </MenuBar>
          
         
-        
+     
             <TabPane tabClosingPolicy="UNAVAILABLE">
                 
                 <tabs>
 
                     <Tab fx:id="workerTab" text="Worker">
-                        <VBox>
-                            <HBox>
+
+                        <VBox spacing="10">
+                            <padding>
+                                <Insets top="25" right="25" bottom="25" left="30"/>
+                            </padding>
+                            
+                            
+                            <HBox spacing="10">
+  
                                 <Label text="First name"/>
-                                
-                                
-                                
-                                
-                                
-                                
+                                <TextField fx:id="firstNameTF" text=""/>
+                                    
                             </HBox>
                             
                             
-                            <Label text="Last name"/>
+                            <HBox spacing="10"> 
+                                
+                                <Label text="Last name"/>
+                                <TextField fx:id="lastNameTF" text=""/>
+            
+                            </HBox>
+                                    
+              
+                                    
+                            <HBox spacing="55"> 
+                                <Label text="Id"/>
+                                <TextField fx:id="idTF" text=""/>
+                                
+                            </HBox>
                             
-                            <Label text="Id"/>
+                            <HBox spacing="17"> 
+                                <Label text="Pay Rate"/> 
+                                <TextField fx:id="payRateTF" text="" />
+                                
+                            </HBox>
                             
-                            <Label text="Pay Rate"/>
                         </VBox>
                     
                     </Tab>
                 
+                
+                
+                
                     <Tab fx:id="shiftTab" text="Shifts"> 
                         <VBox>
-                            <ListView fx:id="listView">
+                            <ListView fx:id="shiftListView">
                                 <items>
                                     <FXCollections fx:factory="observableArrayList">
-                                        <String fx:value="One"/>
-                                        <String fx:value="Two"/>
-                                        <String fx:value="Three"/>
+
                                     </FXCollections>
                                 </items>
-                                
-                                
-                                
-                            </ListView>
-                            
 
-                            
+                            </ListView>
+         
                         </VBox>
                 
                     </Tab>
-                
-                
-                
-                
-                
-                
-                
-                
+
                 </tabs>  
             </TabPane>
-        
-        
-        
+
         </VBox>
        
     </children>

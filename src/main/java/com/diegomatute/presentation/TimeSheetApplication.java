@@ -13,15 +13,31 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 /**
- *
+ * Contains TimeSheetApplication class code. This class holds 
+ * TimeSheetApplication member variables, loads the FXML file 
+ * and shows the window.
+ * 
  * @author diegomatute
+ * @since 11/23/2020
+ * 
  */
+
+
 //Inherits from Application
 public class TimeSheetApplication extends Application {
 
-    //Overrides the abstract start method of the Application
+
+    //Overrides the abstract start method of Application.
     @Override
     //Start method added
+     /**
+     * This method should load the FXML file 
+     * and shows the window.
+     * 
+     * @param primaryStage is constructed by the platform.
+     * @exception IOException is produced by failed or interrupted
+     *            I/O Exceptions.
+     */
     public void start(Stage primaryStage) 
     {
         Parent root = null;
